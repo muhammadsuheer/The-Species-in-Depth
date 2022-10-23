@@ -18,7 +18,7 @@ const Banner = () => {
         </div>
      
         <div className={styles.heading}>
-          <h3 className={styles.title}>THE WORLD OF SEA</h3>
+          <h3 className={styles.title}>The Species Into Depth</h3>
           <h3 className={styles.subTitle}>
             THE OCEANS AND SEA&apos;S ARE FULL OF SECRETS
           </h3>
