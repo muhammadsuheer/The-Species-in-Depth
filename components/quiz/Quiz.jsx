@@ -59,7 +59,7 @@ const Quiz = () => {
     }
 
     if (deduct) {
-      setTime((prevTime) => prevTime - 10000);
+      setTime((prevTime) => prevTime + 10000);
       setDeduct(false);
     }
     return () => clearInterval(interval);

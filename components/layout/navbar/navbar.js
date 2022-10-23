@@ -8,18 +8,16 @@ const MobileMenu = () => {
       <Link href="/">
         <a className={styles.mobileAnker}>Home</a>
       </Link>
-      <Link href="/stories">
-        <a className={styles.mobileAnker}>News</a>
+      <Link href="/fishes">
+        <a className={styles.mobileAnker}>Fishes</a>
       </Link>
       <Link href="/quiz">
-        <a className={styles.mobileAnker}>Shop</a>
+        <a className={styles.mobileAnker}>Quiz</a>
       </Link>
-      <Link href="/species">
-        <a className={styles.mobileAnker}>Contact</a>
+      <Link href="/Github">
+        <a className={styles.mobileAnker}>Github</a>
       </Link>
-      <Link href="/games">
-        <a className={styles.mobileAnker}>About</a>
-      </Link>
+    
     </div>
   );
 };
@@ -46,12 +44,12 @@ function App() {
           <Link href="/quiz">
             <a className={styles.anker}>Quiz</a>
           </Link>
-          <Link href="/quiz">
-            <a className={styles.anker}>Contact</a>
-          </Link>
-          <Link  href="/sea">
+          {/* <Link href="/quiz">
             <a className={styles.anker}>About</a>
           </Link>
+          <Link  href="/sea">
+            <a className={styles.anker}>Github</a>
+          </Link> */}
         </div>
 
         <button className={styles.showButton} onClick={toggleMobileMenu}>

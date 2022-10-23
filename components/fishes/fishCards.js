@@ -1,7 +1,7 @@
 import styles from "./fishcard.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import Fishes from "../../data/fishesdata";
+import Fishes from "./fishesdata";
 import { useState } from "react";
 
 const FishCard = () => {
