@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 800px;
+max-width: 800px;}
+.wrapper{    
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 2rem;  
+}
+
+
+.heading{
+    color: rgb(7, 251, 255);
+    font-size:2rem;
+    font-weight: 900;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+.para1{
+
+    color: white;
+ margin: 20px;
+ padding: 12px;
+font-size: 2rem;
+cursor: pointer;}
+
+.para1:hover{
+color: white;
+background-color: transparent;
+box-shadow: 0 0 10px #000;
+}

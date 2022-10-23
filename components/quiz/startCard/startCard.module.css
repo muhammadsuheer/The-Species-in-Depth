@@ -1,0 +1,130 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+.wrapper{    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;  
+   
+}
+
+
+ 
+.heading{
+    color: #00bcd4;
+    font-size:3rem;
+}
+
+.nseriesWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem; 
+    font-weight: 800; 
+    color: white;
+  }
+  .firstLetter {
+    margin-bottom: 1rem; 
+    font-weight: 700; 
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    
+  }
+
+  .subTitle {
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+
+  }
+ .btnWithIcon {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 25%;
+    height: 45px;
+    cursor: pointer;
+    background-color: rgb(249, 40, 40);
+
+    }
+   
+.btnWithIcon {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: rgb(255, 0, 0);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.btnWithIcon:before {
+    content: '';
+    background: linear-gradient(45deg, #004cff, #00e5ff, #6a00ff, #00ffee, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btnWithIcon:active {
+    color: white;
+}
+
+.btnWithIcon:active:after {
+    background: transparent;
+}
+
+.btnWithIcon:hover:before {
+    opacity: 1;
+}
+
+.btnWithIcon:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(50, 186, 227);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+   
+    
+
+.image{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+
+@media (min-width: 1024px) { 
+     .wrapper{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center;
+   }}
+  
+  

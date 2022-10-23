@@ -1,0 +1,194 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.video{
+  object-fit: cover;   
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -2;
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+pre,
+ul,
+li {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+:root {
+  --surface-color: rgba(0, 0, 0, 1);
+  --curve: 40;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.former{
+max-width: 600px;
+margin: 60px auto;
+margin-bottom: 40px;}
+form {
+  width: 100%;}
+  textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: Roboto;
+  }
+  textarea {
+    resize: none;
+  }
+  input[type="submit"] {
+    cursor: pointer;
+    background-color: black;
+    color: white;}
+    
+    disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    .videos::after{
+      position: absolute;
+      object-fit: cover;   
+  width: 100%;
+  height: 100%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      content: '';
+  z-index: -1;
+  background-color: rgba(0,0,0,0.4);
+
+  }
+  
+
+  .containerser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .headingWrapper h1{
+    color: white;
+    font-size: 4rem;
+  }
+  blockquote{
+    display:block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    margin-top: 10px;
+    position: relative;
+        font-family: Georgia, serif;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #666;
+  
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+    border-left-style: solid;
+    border-left-width: 15px;
+    border-right-style: solid;
+    border-right-width: 2px;    
+  }
+  
+  blockquote::before{
+    content: "\201C"; 
+    font-family: Georgia, serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #999;
+        position: absolute;
+    left: 10px;
+    top:5px;
+    
+  }
+  
+  blockquote::after{
+    content: "";
+  }
+  
+  blockquote a{
+    text-decoration: none;
+    background: #eee;
+    cursor: pointer;
+    padding: 0 3px;
+    color: #c76c0c;
+  }
+  
+  blockquote a:hover{
+   color: #666;
+  }
+  
+  blockquote em{
+    font-style: italic;
+  }
+    blockquote.default{ 
+    border-left-color: #656d77;
+    border-right-color: #434a53;  
+  }
+  
+
+  .desc{
+text-align: center;
+    font-size: 2rem;
+    background: #fff;
+
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+    max-width: 1600px;
+    border-radius: 42px;
+    
+  }
+  
