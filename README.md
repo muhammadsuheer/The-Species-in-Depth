@@ -11,7 +11,9 @@ Steps to run the project:
 
 ```bash
 npm install
-#then
+``
+
+```bash
 npm run dev
 ```
 
