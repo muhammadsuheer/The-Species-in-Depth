@@ -13,6 +13,11 @@
     gap: 25px;
     align-items: center;
 
+  }.containerr {
+   
+  }
+  
+  .container:hover {
   }
   .firstLetter {
 color: #0099ff;
@@ -54,79 +59,43 @@ color: #0099ff;
   .card {
     position: relative;
     display: inline-block;
-    height: 30vh;  
     overflow: hidden;
     text-decoration: none;
   }
   
-  .cardImage {      
-    width: 100%;
-    height: auto;
-  }
-  
-  .cardOverlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    transform: translateY(100%);
-    transition: .2s ease-in-out;
-  }
-  
-  .card:hover .cardOverlay {
-    transform: translateY(0);
-  }
-  
-  .cardHeader {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 2em;
-    padding: 1em;
-    transform: translateY(-100%);
-    transition: .2s ease-in-out;
-    background-color: #0099ff;
 
-  }
-  
-  .cardArc {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    bottom: 100%;
-    right: 0;      
-    z-index: 1;
-  }
-  
-  
-  .card:hover .cardHeader {
-    transform: translateY(0);
-  }
-  
+.containerr {
+  width: 300px;
+  height: 500px;
+  transform-style: preserve-3d;
+  transform: rotateX(60deg) scale(0.7);
+  transition: 0.5s all ease;
+  box-shadow: 0px 20px 50px #555;
+  border-radius: 20px;
+  overflow: hidden;
+  align-items: center;
+}
 
-  
-  .cardTitle {
-    font-size: 1em;
-    color: #ffffff;
-    
-  }
+.containerr:hover {
+  transform: rotateX(0deg) scale(1) translateY(10px);
+}
   
  
+  
+  .cardTitle{
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .cardTitle:hover{
+  
+  color: white;
+  background-color: transparent;
+  box-shadow: 0 10 10px #000;
+  }
 
   
-  .cardDescription {
-    padding: 0 1em 1em;
-    margin: 0;
-    color: #ffffff;
-    font-family: "MockFlowFont";   
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
-    background-color: #0099ff;
-
-  }    
+  
   
   
 .form__label {

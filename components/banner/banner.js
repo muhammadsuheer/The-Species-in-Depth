@@ -6,13 +6,17 @@ const Banner = () => {
     <div className={styles.container}>
       
      
-   
+   <div className={styles.overlayer}>
+   </div>
+
+
+
       <div className={styles.left}>
     
         <div className={styles.nseriesWrapper}>
           
           <p className={styles.series}>THE</p>
-          <p className={styles.firstLetter}>TREASURES </p>
+          <p className={styles.firstLetter}>Secrets </p>
           <p className={styles.series}>IN THE</p>
           <p className={styles.firstLetter}>OCEAN</p>
         </div>
@@ -20,8 +24,7 @@ const Banner = () => {
         <div className={styles.heading}>
           <h3 className={styles.title}>The Species Into Depth</h3>
           <h3 className={styles.subTitle}>
-            THE OCEANS AND SEA&apos;S ARE FULL OF SECRETS
-          </h3>
+          Sea Makes You Feel Small. But Not In a Bad Way. Small Because You Realize You’re Part of Something Bigger.       </h3>
         </div>
         <div className={styles.btnwrapper}>
           <div className={styles.loader}>
@@ -55,7 +58,6 @@ const Banner = () => {
           </div>          
         </div>
 
-        {/* <img src="https://i.gifer.com/origin/48/48b104295655cf0908ea58ba723232ac_w200.gif" alt="" /> */}
       </div>
     </div>
   );

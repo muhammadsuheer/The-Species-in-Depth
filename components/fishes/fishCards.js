@@ -1,7 +1,7 @@
 import styles from "./fishcard.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import Fishes from "./fishesdata";
+import Fishes from "../../data/fishesdata";
 import { useState } from "react";
 
 const FishCard = () => {
@@ -17,7 +17,19 @@ const FishCard = () => {
           <p className={styles.series}>OF </p>
           <p className={styles.firstLetter}> World</p>
 </div>
-
+{/* 
+    <div class="wrapper">
+      <div class="container">
+        <img src="https://picsum.photos/300/500" alt="card" />
+      </div>
+      <div class="container">
+        <img src="https://picsum.photos/300/501" alt="card" />
+      </div>
+      <div class="container">
+        <img src="https://picsum.photos/300/502" alt="card" />
+      </div>
+    </div>
+  */}
         <div className={styles.form__group}>
   <input type="text" className={styles.formInput} placeholder="Find Fishes"  onChange={(event) => {
               setSearchTerm(event.target.value);
@@ -41,34 +53,19 @@ const FishCard = () => {
             return (
               <li key={key}>
                 <Link
-                  href={`/fishes/${Fishes.link}`}
+                  href={`/species/${Fishes.link}`}
                 >
                   <a  className={styles.card}>
                     <Image
                       width={400}
-                      height={300}
+                      height={450}
                       src={Fishes.image}
                       key={key}
-                      className={styles.cardImage}
+                      className={styles.containerr}
                       alt="fish-images"
                     />
-
-                    <div className={styles.cardOverlay}>
-
-                      <div className={styles.cardHeader}>
-
-                        <h3 key={key} className={styles.cardTitle}>
-                          {Fishes.name}
-                        </h3>
-                      </div>
-                      <div className={styles.effect}>
-
-                      <p key={key} className={styles.cardDescription}>
-                        {Fishes.subTitle}
-                      </p>
-                      </div>
-                    </div>
-
+                    <h3 className={styles.cardTitle}>{Fishes.name}</h3>
+        
                   </a>
                 </Link>
               </li>

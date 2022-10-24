@@ -1,0 +1,166 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  .nseriesWrapper {
+    display: flex;
+    justify-content: center;
+  margin-top: 210px;
+
+    gap: 25px;
+    align-items: center;
+
+  }
+  .firstLetter {
+color: #0099ff;
+    font-size: 3rem;
+    font-weight: 800;
+    
+  }
+  .series {
+    color: white;
+    word-spacing: 5px;
+    font-weight: 900;
+  }
+  .heading{
+    display: block;
+    text-align: center;
+  
+  }
+  .title {
+  
+    font-size: 4rem;
+    font-weight: 800;
+  }
+  
+  .subTitle {
+  
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 4rem 5vw;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .card {
+    position: relative;
+    display: inline-block;
+    height: 30vh;  
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .cardImage {      
+    width: 100%;
+    height: auto;
+  }
+  
+  .cardOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    transform: translateY(100%);
+    transition: .2s ease-in-out;
+  }
+  
+  .card:hover .cardOverlay {
+    transform: translateY(0);
+  }
+  
+  .cardHeader {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 1em;
+    transform: translateY(-100%);
+    transition: .2s ease-in-out;
+    background-color: #0099ff;
+
+  }
+  
+  .cardArc {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 100%;
+    right: 0;      
+    z-index: 1;
+  }
+  
+  
+  .card:hover .cardHeader {
+    transform: translateY(0);
+  }
+  
+
+  
+  .cardTitle {
+    font-size: 1em;
+    color: #ffffff;
+    
+  }
+  
+ 
+
+  
+  .cardDescription {
+    padding: 0 1em 1em;
+    margin: 0;
+    color: #ffffff;
+    font-family: "MockFlowFont";   
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    background-color: #0099ff;
+
+  }    
+  
+  
+.form__label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+    
+  }
+  
+  .formInput {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    border: none;
+    width: 90%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+  }
+  
+  .form__input:placeholder-shown + .form__label {
+    visibility: hidden;
+    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4rem);
+  }
+  
+
+  .force{
+    overflow-x: hidden;
+  overflow-y: auto;
+  }

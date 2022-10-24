@@ -3,19 +3,17 @@ import Navbar from './navbar/navbar'
 
 export default function Layout({ children }) {
     return (
-      <>
-       <div >   
-        <div className='videos'>
+       <div className='videos' >   
+        <div >
       <video className='video'  autoPlay muted loop >
-          <source src="/static/background.mp4" />
+          <source src="/static/c.mp4" />
           
         </video>    
         </div>
-        </div> 
         <Navbar />
        
         <main>{children}</main>
-     
-      </>
+        </div> 
+
     )
   }

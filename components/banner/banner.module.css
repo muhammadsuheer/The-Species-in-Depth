@@ -8,10 +8,11 @@
 }
 
 .left {
-  display: flex;
+   display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 1000px;
 }
 
 .nseriesWrapper {
@@ -29,7 +30,6 @@
 }
 .series {
   color: white;
-
   word-spacing: 5px;
   font-weight: 900;
 }
@@ -40,15 +40,16 @@
 }
 .title {
   color:rgb(42 224 255);
-  font-size: 8rem;
+  font-size: 5.5rem;
   font-weight: 800;
 }
 
 .subTitle {
 color: white;
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-bottom: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 
@@ -130,6 +131,19 @@ color: white;
     left: 0;    
      -webkit-transform: rotateY(0deg);
   }
+}
+.overlayer{
+background-image:url(./../../public/static/fish.gif);
+width: 600px;
+height: 500px;
+background-repeat: no-repeat;
+z-index: -1;
+margin-right: -310px;
+transform: perspective(200px) rotateX(12deg) rotateY(10deg);
+
+background-repeat: no-repeat;
+background-size: auto;
+background-size: 600px 450px;
 }
 
 .loader {

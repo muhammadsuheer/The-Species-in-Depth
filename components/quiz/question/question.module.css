@@ -39,3 +39,9 @@ color: white;
 background-color: transparent;
 box-shadow: 0 0 10px #000;
 }
+
+.para2{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}

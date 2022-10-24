@@ -2,8 +2,7 @@ const Fishes = [
   {
     name: "Alaskan Pollock",
     subTitle: "It's one of the most commonly eaten fish in the world",
-    image:
-      "https://a-z-animals.com/media/2022/04/shutterstock_1583113354-400x300.jpg",
+    image:"https://a-z-animals.com/media/2022/04/shutterstock_1583113354-400x300.jpg",
     link: "AlaskanPollock",
   },
 
@@ -19,8 +18,7 @@ const Fishes = [
     name: "Alligator Gar",
     link: "AlligatorGar",
     subTitle: "The alligator gar has toxic eggs to protect against predators",
-    image:
-      "https://a-z-animals.com/media/2021/02/Alligator-gar-header-400x300.jpg",
+    image:"https://a-z-animals.com/media/2021/02/Alligator-gar-header-400x300.jpg",
   },
 
  
@@ -49,40 +47,32 @@ const Fishes = [
   {
     name: "Arctic Char",
     link: "ArcticChar",
-    subTitle:
-      "Arctic char is the northern-most fish; no other fish lives anywhere further north!",
-    image:
-      "https://a-z-animals.com/media/2022/08/shutterstock_1454856311-400x300.jpg",
+    subTitle:"Arctic char is the northern-most fish; no other fish lives anywhere further north!",
+    image:"https://a-z-animals.com/media/2022/08/shutterstock_1454856311-400x300.jpg",
   },
   {
     name: "Asian Arowana",
     link: "AsianArowana",
     subTitle: "The male Asian arowana raises the eggs in its mouth",
-    image:
-      "https://a-z-animals.com/media/2022/04/Asian-Arowana-header-400x300.jpg",
+    image:"https://a-z-animals.com/media/2022/04/Asian-Arowana-header-400x300.jpg",
   },
   {
     name: "Atlantic Salmon",
     link: "AtlanticSalmon",
-    subTitle:
-      "These fish are known for their ability to leap and fight when hooked.",
-    image:
-      "https://a-z-animals.com/media/2022/04/Atlantic-salmon-displaying-spots-400x300.jpg",
+    subTitle:"These fish are known for their ability to leap and fight when hooked.",
+    image:"https://a-z-animals.com/media/2022/04/Atlantic-salmon-displaying-spots-400x300.jpg",
   },
   {
     name: "Atlantic Sturgeon",
     link: "AtlanticSturgeon",
     subTitle: "Atlantic Sturgeon often leap out of the water.",
-    image:
-      "https://a-z-animals.com/media/2022/08/Atlantic-Sturgeon-2-400x300.jpg",
+    image:"https://a-z-animals.com/media/2022/08/Atlantic-Sturgeon-2-400x300.jpg",
   },
   {
     name: "Australian Flathead Perch",
     link: "AustralianFlatheadPerch",
-    subTitle:
-      "This small fish fetches a high price tag, with individuals selling from $1,000 to $5,000.",
-    image:
-      "https://a-z-animals.com/media/2022/04/Rainfordia_opercularis1-400x300.jpg",
+    subTitle:"This small fish fetches a high price tag, with individuals selling from $1,000 to $5,000.",
+    image:"https://a-z-animals.com/media/2022/04/Rainfordia_opercularis1-400x300.jpg",
   },
   {
     name: "Baiji",
@@ -93,25 +83,20 @@ const Fishes = [
   {
     name: "Banana Eel",
     link: "BananaEel",
-    subTitle:
-      "Named for the yellow body and brown spots that make it look like a banana.",
-    image:
-      "https://a-z-animals.com/media/2022/04/iStock-1084949470-400x300.jpg",
+    subTitle:"Named for the yellow body and brown spots that make it look like a banana.",
+    image:"https://a-z-animals.com/media/2022/04/iStock-1084949470-400x300.jpg",
   },
   {
     name: "Banjo Catfish",
     link: "BanjoCatfish",
-    subTitle:
-      "The banjo catfish is extremely shy and known for hiding from onlookers.",
+    subTitle:"The banjo catfish is extremely shy and known for hiding from onlookers.",
     image: "https://a-z-animals.com/media/2021/02/banjo-catfish2-400x300.jpg",
   },
   {
     name: "Barracuda",
     link: "Barracuda",
-
     subTitle: "Can grow to nearly 2 meters long!",
-    image:
-      "https://a-z-animals.com/media/animals/images/original/barracuda-400x300.jpg",
+    image:"https://a-z-animals.com/media/animals/images/original/barracuda-400x300.jpg",
   },
   {
     name: "Barb",
@@ -123,25 +108,20 @@ const Fishes = [
   {
     name: "Basking Shark",
     link: "BaskingShark",
-
     subTitle: "The second biggest fish in the world!",
-    image:
-      "https://a-z-animals.com/media/animals/images/original/basking_shark-400x300.jpg",
+    image:"https://a-z-animals.com/media/animals/images/original/basking_shark-400x300.jpg",
   },
   {
     name: "Batfish",
     link: "Batfish",
-
     subTitle: "The batfish has a lure on its head to attract prey",
-    image:
-      "https://a-z-animals.com/media/2022/04/shutterstock_1257211987-400x300.jpg",
+    image:"https://a-z-animals.com/media/2022/04/shutterstock_1257211987-400x300.jpg",
   },
   {
     name: "Beluga Sturgeon",
     link: "BelugaSturgeon",
-    subTitle:
-      "The beluga sturgeon is one of the largest bony fish in the world!",
-    image: "https://a-z-animals.com/media/beluga-sturgeon-5-400x300.jpg",
+    subTitle:"The beluga sturgeon is one of the largest bony fish in the world!",
+    image:"https://a-z-animals.com/media/beluga-sturgeon-5-400x300.jpg",
   },
   {
     name: "Betta Fish (Siamese Fighting Fish)",
@@ -153,31 +133,25 @@ const Fishes = [
     name: "Black Marlin",
     link: "BlackMarlin",
     subTitle: "Every black marlin is born as a female.",
-    image:
-      "https://a-z-animals.com/media/black-marlin-jumping-out-of-water-400x300.jpg",
+    image:"https://a-z-animals.com/media/black-marlin-jumping-out-of-water-400x300.jpg",
   },
   {
     name: "Blacknose Shark",
     link: "BlacknoseShark",
-    subTitle:
-      "When threatened, Blacknose sharks raise their head, arch their back, and lower their pectoral fins.",
+    subTitle:"When threatened, Blacknose sharks raise their head, arch their back, and lower their pectoral fins.",
     image: "https://a-z-animals.com/media/2022/07/blacknose-shark-400x300.jpg",
   },
   {
     name: "Blob Fish",
     link: "BlobFish",
-
     subTitle: "One of the ugliest creatures in existence!",
-    image:
-      "https://a-z-animals.com/media/animals/images/original/blobfish-400x300.jpg",
+    image:"https://a-z-animals.com/media/black-marlin-jumping-out-of-water-400x300.jpg"
   },
   {
     name: "Blue Catfish",
     link: "BlueCatfish",
-
     subTitle: "It's a strong fighter when caught on a fishing line",
-    image:
-      "https://a-z-animals.com/media/2022/04/shutterstock_543365575-400x300.jpg",
+    image:"https://a-z-animals.com/media/2022/04/shutterstock_543365575-400x300.jpg",
   },
 
   {
@@ -317,185 +291,126 @@ const Fishes = [
   {
     name: "Chinook Salmon",
     link: "ChinookSalmon",
-
-    subTitle:
-      "The Chinook salmon undertakes a long migration for the spawning season",
-    image:
-      "https://a-z-animals.com/media/2022/04/Chinook-Salmon-header-400x300.jpg",
+    subTitle:"The Chinook salmon undertakes a long migration for the spawning season",
+    image:"https://a-z-animals.com/media/2022/04/Chinook-Salmon-header-400x300.jpg",
   },
 
   {
     name: "Cichlid",
     link: "Cichlid",
-
-    subTitle: "There are more than 2 000 known species!",
-    image:
-      "https://a-z-animals.com/media/animals/images/original/cichlid2-400x300.jpg",
+    subTitle:"There are more than 2 000 known species!",
+    image:"https://a-z-animals.com/media/animals/images/original/cichlid2-400x300.jpg",
   },
 
-  // {
-  //   name: "Clownfish",
-  //   link: "Clownfish",
-  //   subTitle: "Also known as the anemonefish!",
-  //   image:"https://a-z-animals.com/media/animals/images/original/clown-400x300.jpg"
-  // },
+  {
+    name: "Clownfish",
+    link: "Clownfish",
+    subTitle: "Also known as the anemonefish!",
+    image:"https://a-z-animals.com/media/animals/images/original/clown-400x300.jpg"
+  },
 
-  // {
-  //   name: "Cobia Fish",
-  //   link: "CobiaFish",
+  {
+    name: "Cobia Fish",
+    link: "CobiaFish",
+    subTitle: "It has teeth not only in its jaws but in its tongue and the roof of its mouth",
+    image:"https://a-z-animals.com/media/2022/04/Cobia-header-400x300.jpg"
+  },
 
-  //   subTitle: "It has teeth not only in its jaws but in its tongue and the roof of its mouth",
-  //   image:"https://a-z-animals.com/media/2022/04/Cobia-header-400x300.jpg"
-  // }
+  {
+    name: "Codfish",
+    link: "Codfish",
+    subTitle: "They eat other fish",
+    image:"https://a-z-animals.com/media/2021/01/Codfish-close-up-400x300.jpg"
+  },
 
-  // {
-  //   name: "Codfish",
-  //   subTitle: "They eat other fish",
-  //   image:"https://a-z-animals.com/media/2021/01/Codfish-close-up-400x300.jpg"
-  // },
+  {
+    name: "Coelacanth",
+    link: "Coelacanth",
 
-  // {
-  //   name: "Coelacanth",
-  //   subTitle: "The coelacanth first evolved almost 400 million years ago.",
-  //   image:"https://a-z-animals.com/media/coelacanth-underwater-400x300.jpg"
-  // },
+    subTitle: "The coelacanth first evolved almost 400 million years ago.",
+    image:"https://a-z-animals.com/media/coelacanth-underwater-400x300.jpg"
+  },
 
-  // {
-  //   name: "Conger Eel",
-  //   subTitle: "The European Conger ( Conger conger) can weigh as much as an adult human!",
-  //   image:"https://a-z-animals.com/media/2022/04/Conger-Eel-header-400x300.jpg"
-  // },
+  {
+    name: "Conger Eel",
+    link: "CongerEel",
 
-  // {
-  //   name: "Cookiecutter Shark",
-  //   subTitle: "The cookiecutter shark takes its name because it leaves a cookie-shaped bite hole in its prey.",
-  //   image:"https://a-z-animals.com/media/2021/07/Isistius_brasiliensis-400x300.jpg"
-  // },
+    subTitle: "The European Conger ( Conger conger) can weigh as much as an adult human!",
+    image:"https://a-z-animals.com/media/2022/04/Conger-Eel-header-400x300.jpg"
+  },
 
-  // {
-  //   name: "Cory Catfish",
-  //   subTitle: "All Cory Catfish have three pairs of barbels around their mouth that they use to detect food.",
-  //   image:"https://a-z-animals.com/media/2022/07/shutterstock_2147569723-400x300.jpg"
-  // },
+  {
+    name: "Cookiecutter Shark",
+    link: "CookiecutterShark",
+    
+    subTitle: "The cookiecutter shark takes its name because it leaves a cookie-shaped bite hole in its prey.",
+    image:"https://a-z-animals.com/media/2021/07/Isistius_brasiliensis-400x300.jpg"
+  },
 
-  // {
-  //   name: "Crappie Fish",
-  //   subTitle: "The crappie is one of the most popular freshwater fish in North America.",
-  //   image:"https://a-z-animals.com/media/2021/08/crappie2-header-400x300.jpg"
-  // },
+  {
+    name: "Cory Catfish",
+    link: "CoryCatfish",
+    subTitle: "All Cory Catfish have three pairs of barbels around their mouth that they use to detect food.",
+    image:"https://a-z-animals.com/media/2022/07/shutterstock_2147569723-400x300.jpg"
+  },
 
-  // {
-  //   name: "Danios",
-  //   subTitle: "These fish make a popular choice for aquarium hobbyists due to their hardy nature.",
-  //   image:"https://a-z-animals.com/media/2022/03/danio-4-400x300.jpg"
-  // },
+  {
+    name: "Crappie Fish",
+    link: "CrappieFish",
+    subTitle: "The crappie is one of the most popular freshwater fish in North America.",
+    image:"https://a-z-animals.com/media/2021/08/crappie2-header-400x300.jpg"
+  },
 
-  // {
-  //   name: "Discus",
-  //   subTitle: "One of the only schooling Cichlids!",
-  //   image:"https://a-z-animals.com/media/discus-1-400x300.jpg"
-  // },
+  {
+    name: "Danios",
+    link: "Danios",
+    subTitle: "These fish make a popular choice for aquarium hobbyists due to their hardy nature.",
+    image:"https://a-z-animals.com/media/2022/03/danio-4-400x300.jpg"
+  },
 
-  // {
-  //   name: "Dragon Eel",
-  //   subTitle: "Dragon eels have double jaws and two sets of razor-sharp teeth",
-  //   image:"https://a-z-animals.com/media/2022/09/shutterstock_147619913-400x300.jpg"
-  // },
+  {
+    name: "Discus",
+    link: "Discus",
+    subTitle: "One of the only schooling Cichlids!",
+    image:"https://a-z-animals.com/media/discus-1-400x300.jpg"
+  },
 
-  // {
-  //   name: "Dragonfish",
-  //   subTitle: "Dragonfish can emit red light from their eyes",
-  //   image:"https://a-z-animals.com/media/dragonfish-5-400x300.jpg"
-  // },
+  {
+    name: "Dragon Eel",
+    link: "DragonEel",
+    subTitle: "Dragon eels have double jaws and two sets of razor-sharp teeth",
+    image:"https://a-z-animals.com/media/2022/09/shutterstock_147619913-400x300.jpg"
+  },
 
-  // {
-  //   name: "Drum Fish",
-  //   subTitle: "The drum fish makes a croaking sound with its swimming bladder!",
-  //   image:"https://a-z-animals.com/media/drum-fish-1-400x300.jpg"
-  // },
+  {
+    name: "Dragonfish",
+    link: "Dragonfish",
+    subTitle: "Dragonfish can emit red light from their eyes",
+    image:"https://a-z-animals.com/media/dragonfish-5-400x300.jpg"
+  },
 
-  // {
-  //   name: "Dusky Shark",
-  //   subTitle: "The Dusky Shark sometimes eats trash discarded by humans.",
-  //   image:"https://a-z-animals.com/media/2022/07/shutterstock_528523684-400x300.jpg"
-  // },
+  {
+    name: "Drum Fish",
+    link: "DrumFish",
+    subTitle: "The drum fish makes a croaking sound with its swimming bladder!",
+    image:"https://a-z-animals.com/media/drum-fish-1-400x300.jpg"
+  },
 
-  // {
-  //   name: "Eel",
-  //   subTitle: "Eels can be a mere few inches long to 13 feet!",
-  //   image:"https://a-z-animals.com/media/eel-1-400x300.jpg"
-  // },
+  {
+    name: "Dusky Shark",
+    link: "DuskyShark",
+    subTitle: "The Dusky Shark sometimes eats trash discarded by humans.",
+    image:"https://a-z-animals.com/media/2022/07/shutterstock_528523684-400x300.jpg"
+  },
 
-  // {
-  //   name: "Electric Catfish",
-  //   subTitle: "The electric catfish can discharge an electric shock up to 450 volts",
-  //   image:"https://a-z-animals.com/media/2022/04/Electric-Catfish-header-400x300.jpg"
-  // },
+  {
+    name: "Eel",
+    link: "Eel",
+    subTitle: "Eels can be a mere few inches long to 13 feet!",
+    image:"https://a-z-animals.com/media/eel-1-400x300.jpg"
+  },
 
-  // {
-  //   name: "Electric Eel",
-  //   subTitle: "Despite its powerful shock, electric eels have terrible vision.",
-  //   image:"https://a-z-animals.com/media/2018/09/Three-Electric-Eels-400x300.jpg"
-  // },
-
-  // {
-  //   name: "Escolar",
-  //   subTitle: "Its system cannot metabolize wax esters, which can lead to unpleasantness for diners.",
-  //   image:"https://a-z-animals.com/media/2022/03/escolar-drawing-400x300.jpg"
-  // },
-
-  // {
-  //   name: "Fangtooth",
-  //   subTitle: "Has the largest teeth compared to body size of any known fish",
-  //   image:"https://a-z-animals.com/media/fangtooth-2-400x300.jpg"
-  // },
-
-  // {
-  //   name: "Fire Eel",
-  //   subTitle: "Fire Eels are not true eels.",
-  //   image:"https://a-z-animals.com/media/2022/04/shutterstock_1901657905-400x300.jpg"
-  // },
-
-  // {
-  //   name: "Fish",
-  //   subTitle: "Respire through the gills on their heads!",
-  //   image:"https://a-z-animals.com/media/animals/images/original/fish8-400x300.jpg"
-  // },
-
-  // {
-  //   name: "Flathead Catfish",
-  //   subTitle: "The only predators that prey on flathead catfish are members of their own species and humans who catch them for commercial and recreational purposes.",
-  //   image:"https://a-z-animals.com/media/2022/08/iStock-1200213009-400x300.jpg"
-  // },
-  // {
-  //   name: "The Florida gar has toxic eggs to protect against predators",
-  //   subTitle: "Florida Gar",
-  //   image:"https://a-z-animals.com/media/2021/02/Florida-gar-header-400x300.jpg"
-  // },
-
-  // {
-  //   name: "Flounder",
-  //   subTitle: "A flat fish found in the Atlantic and Pacific!",
-  //   image:"https://a-z-animals.com/media/animals/images/original/flounder-400x300.jpg"
-  // },
-
-  // {
-  //   name: "Flowerhorn Fish",
-  //   subTitle: "The Flowerhorn fish is an artificial species; it does not exist naturally",
-  //   image:"https://a-z-animals.com/media/2021/10/Flowerhorn-header-2-400x300.jpg"
-  // },
-
-  // {
-  //   name: "Fluke Fish (summer flounder)",
-  //   subTitle: "The chameleon of the seas!",
-  //   image:"https://a-z-animals.com/media/FlukeCloseUp-e1656119384188-400x300.jpg"
-  // },
-
-  // {
-  //   name: "Flying Fish",
-  //   subTitle: "Can glide in the air for hundreds of feet",
-  //   image:"https://a-z-animals.com/media/2021/06/Flying-Fish-header-400x300.jpg"
-  // },
+  
 ];
 
 export default Fishes;
