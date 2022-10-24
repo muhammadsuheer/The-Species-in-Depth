@@ -1,4 +1,4 @@
-const Fishes = [
+const fishes = [
   {
     name: "Alaskan Pollock",
     subTitle: "It's one of the most commonly eaten fish in the world",
@@ -413,4 +413,4 @@ const Fishes = [
   
 ];
 
-export default Fishes;
+export default fishes;

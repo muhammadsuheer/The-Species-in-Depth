@@ -1,7 +1,7 @@
 import styles from "./fishcard.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import Fishes from "../../data/fishesData"
+import fishes from "../../data/fishesData"
 import { useState } from "react";
 
 const FishCard = () => {
@@ -19,7 +19,7 @@ const FishCard = () => {
 </div>
 
         <div className={styles.form__group}>
-  <input type="text" className={styles.formInput} placeholder="Find Fishes"  onChange={(event) => {
+  <input type="text" className={styles.formInput} placeholder="Find fishes"  onChange={(event) => {
               setSearchTerm(event.target.value);
             }}/>
 </div>
@@ -29,25 +29,25 @@ const FishCard = () => {
   <div className={styles.force}>
       <div>
         <ul  className={styles.cards}>
-          {Fishes.filter((Fishes) => {
+          {fishes.filter((fishes) => {
             if ((searchTerm == "")) {
-              return Fishes;
+              return fishes;
             } else if (
-              Fishes.name.toLowerCase().includes(searchTerm.toLowerCase())
+              fishes.name.toLowerCase().includes(searchTerm.toLowerCase())
             ) {
-              return  Fishes;
+              return  fishes;
             }
-          }).map((Fishes, key) => {
+          }).map((fishes, key) => {
             return (
               <li key={key}>
                 <Link
-                  href={`/fishes/${Fishes.link}`}
+                  href={`/fishes/${fishes.link}`}
                 >
                   <a  className={styles.card}>
                     <Image
                       width={400}
                       height={300}
-                      src={Fishes.image}
+                      src={fishes.image}
                       key={key}
                       className={styles.cardImage}
                       alt="fish-images"
@@ -58,13 +58,13 @@ const FishCard = () => {
                       <div className={styles.cardHeader}>
 
                         <h3 key={key} className={styles.cardTitle}>
-                          {Fishes.name}
+                          {fishes.name}
                         </h3>
                       </div>
                       <div className={styles.effect}>
 
                       <p key={key} className={styles.cardDescription}>
-                        {Fishes.subTitle}
+                        {fishes.subTitle}
                       </p>
                       </div>
                     </div>
