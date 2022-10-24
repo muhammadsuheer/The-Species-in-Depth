@@ -49,25 +49,16 @@ const FishCard = () => {
                       height={300}
                       src={fishes.image}
                       key={key}
-                      className={styles.cardImage}
+                      className={styles.containerCard}
                       alt="fish-images"
                     />
 
-                    <div className={styles.cardOverlay}>
 
-                      <div className={styles.cardHeader}>
 
                         <h3 key={key} className={styles.cardTitle}>
                           {fishes.name}
                         </h3>
-                      </div>
-                      <div className={styles.effect}>
-
-                      <p key={key} className={styles.cardDescription}>
-                        {fishes.subTitle}
-                      </p>
-                      </div>
-                    </div>
+                      
 
                   </a>
                 </Link>
