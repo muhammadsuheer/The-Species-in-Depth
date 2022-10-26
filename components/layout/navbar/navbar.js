@@ -8,7 +8,7 @@ const MobileMenu = () => {
       <Link href="/">
         <a className={styles.mobileAnker}>Home</a>
       </Link>
-      <Link href="/fishes-list">
+      <Link href="/fishes">
         <a className={styles.mobileAnker}>Fishes</a>
       </Link>
       <Link href="/quiz">
@@ -38,7 +38,7 @@ function App() {
           <Link href="/">
             <a className={styles.anker} >Home</a>
           </Link>
-          <Link  href="/fishes-list">
+          <Link  href="/fishes">
             <a className={styles.anker}>Fishes</a>
           </Link>
           <Link href="/quiz">
