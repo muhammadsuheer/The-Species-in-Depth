@@ -41,7 +41,7 @@ const FishCard = () => {
             return (
               <li key={key}>
                 <Link
-                  href={`/fishes/${fishes.link}`}
+                  href={`/species/${fishes.link}`}
                 >
                   <a  className={styles.card}>
                     <Image
